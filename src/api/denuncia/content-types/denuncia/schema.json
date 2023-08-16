@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "denuncias",
+  "info": {
+    "singularName": "denuncia",
+    "pluralName": "denuncias",
+    "displayName": "denuncia",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "relato": {
+      "type": "richtext"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "lat": {
+      "type": "string"
+    },
+    "lng": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "categories": {
+      "type": "string"
+    },
+    "impacts": {
+      "type": "string"
+    },
+    "elements": {
+      "type": "string"
+    },
+    "publicado": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

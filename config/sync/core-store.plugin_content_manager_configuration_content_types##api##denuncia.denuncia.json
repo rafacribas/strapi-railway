@@ -1,0 +1,238 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::denuncia.denuncia",
+  "value": {
+    "uid": "api::denuncia.denuncia",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "lat",
+      "defaultSortBy": "lat",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "relato": {
+        "edit": {
+          "label": "relato",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "relato",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "users_permissions_user": {
+        "edit": {
+          "label": "users_permissions_user",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "username"
+        },
+        "list": {
+          "label": "users_permissions_user",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "lat": {
+        "edit": {
+          "label": "lat",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "lat",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "lng": {
+        "edit": {
+          "label": "lng",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "lng",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "photo": {
+        "edit": {
+          "label": "photo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "photo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "categories": {
+        "edit": {
+          "label": "categories",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "categories",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "impacts": {
+        "edit": {
+          "label": "impacts",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "impacts",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "elements": {
+        "edit": {
+          "label": "elements",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "elements",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "publicado": {
+        "edit": {
+          "label": "publicado",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "publicado",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt"
+      ],
+      "edit": [
+        [
+          {
+            "name": "relato",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "users_permissions_user",
+            "size": 6
+          },
+          {
+            "name": "lat",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "lng",
+            "size": 6
+          },
+          {
+            "name": "photo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "categories",
+            "size": 6
+          },
+          {
+            "name": "impacts",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "elements",
+            "size": 6
+          },
+          {
+            "name": "publicado",
+            "size": 4
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
