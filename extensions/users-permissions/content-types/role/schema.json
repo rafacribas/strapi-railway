@@ -44,6 +44,18 @@
       "target": "plugin::users-permissions.user",
       "mappedBy": "role",
       "configurable": false
+    },
+    "telefone": {
+      "type": "string"
+    },
+    "cidade": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "associacao": {
+      "type": "string"
     }
   }
 }
