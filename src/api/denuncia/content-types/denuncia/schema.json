@@ -41,7 +41,7 @@
       "type": "string"
     },
     "impacts": {
-      "type": "string"
+      "type": "richtext"
     },
     "elements": {
       "type": "string"
