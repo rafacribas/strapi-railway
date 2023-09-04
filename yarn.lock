@@ -1359,7 +1359,7 @@
     "sharp" "0.32.0"
     "yup" "0.32.9"
 
-"@strapi/plugin-users-permissions@4.12.1":
+"@strapi/plugin-users-permissions@^4.12.1":
   "integrity" "sha512-dSTU1/CRIFqP4JxBqoKuupxZOBlL++qfsrh8hM8noKM25gfnVxrxHklveasB8UR1QnwpnGNpRfetQf8kZASuig=="
   "resolved" "https://registry.npmjs.org/@strapi/plugin-users-permissions/-/plugin-users-permissions-4.12.1.tgz"
   "version" "4.12.1"
